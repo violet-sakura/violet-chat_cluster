@@ -12,7 +12,8 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 
 # 头文件路径
 include_directories(
-	${CMAKE_SOURCE_DIR}/thirdparty/asynclog/include	
+	${CMAKE_SOURCE_DIR}/thirdparty/asynclog/include
+	${CMAKE_SOURCE_DIR}/include/server
 )
 
 # 子目录
